@@ -1,28 +1,33 @@
 {
   "expo": {
-    "name": "expo-supabase-starter",
-    "slug": "expo-supabase-starter",
+    "name": "Skizpop",
+    "slug": "skizpop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "expo-supabase-starter",
+    "scheme": "skizpop",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0B0F"
+    },
     "platforms": [
       "ios",
       "android"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.flemingvincent.expo-supabase-starter"
+      "bundleIdentifier": "com.skizpop.app"
     },
     "android": {
+      "package": "com.skizpop.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.flemingvincent.exposupabasestarter"
+      "edgeToEdgeEnabled": true
     },
     "plugins": [
       "expo-router",
@@ -39,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "supabaseUrl": "https://icwmjsipsdccxdeanwsi.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imljd21qc2lwc2RjY3hkZWFud3NpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgxMDc3MDYsImV4cCI6MjA3MzY4MzcwNn0.F8O9Wb_w1C5WHjvHtdhoNJkA3FkVyMxc3ZGiBUdR1gs",
+      "eas": { 
+        "projectId": "YOUR_EAS_PROJECT_ID" 
+      }
     }
   }
 }

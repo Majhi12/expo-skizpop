@@ -1,5 +1,5 @@
 {
-  "name": "expo-supabase-starter",
+  "name": "skizpop",
   "license": "MIT",
   "version": "1.0.0",
   "main": "expo-router/entry",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
     "@supabase/supabase-js": "^2.55.0",
-    "expo": "^54.0.0",
+    "expo": "^54.0.8",
     "expo-constants": "~18.0.7",
     "expo-dev-client": "~6.0.11",
     "expo-linking": "~8.0.7",
